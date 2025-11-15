@@ -1,0 +1,43 @@
+#
+# OPTION COMMAND FILE created by Cadence Quantus QRC Extraction Version 16.1.1-s111 from CCL
+#
+capacitance \
+	 -decoupling_factor 1.0 \
+	 -ground_net "VSS"
+extract \
+	 -selection "all" \
+	 -type "c_only_coupled"
+extraction_setup \
+	 -macro_cells_type "default" \
+	 -net_name_space "SCHEMATIC"
+filter_coupling_cap \
+	 -coupling_cap_threshold_absolute 0.01 \
+	 -coupling_cap_threshold_relative 0.001
+input_db -type assura \
+	 -design_cell_name "opamp layout integrated_systems_first" \
+	 -directory_name "/afs/.ist.utl.pt/users/7/5/ist1117175/CADENCE/ASSURA_LVS/opamp" \
+	 -format "DFII" \
+	 -run_name "opamp"
+log_file \
+	 -file_name "/afs/.ist.utl.pt/users/7/5/ist1117175/CADENCE/ASSURA_LVS/opamp/qrc.opamp.log"
+mos_diffusion_parameter_extraction \
+	 -res "fast"
+output_db -type extracted_view \
+	 -cap_component "pcapacitor auLvs PRIMLIB" \
+	 -cap_property_name "c" \
+	 -enable_cellview_check false \
+	 -include_cap_model "false" \
+	 -include_parasitic_cap_model "false" \
+	 -include_parasitic_res_model "comment" \
+	 -include_res_model "false" \
+	 -view_name "av_extracted"
+output_setup \
+	 -directory_name "/afs/.ist.utl.pt/users/7/5/ist1117175/CADENCE/ASSURA_LVS/opamp" \
+	 -temporary_directory_name "opamp"
+process_technology \
+	 -technology_corner \
+		"Typical" \
+	 -technology_library_file "/afs/.ist.utl.pt/users/7/5/ist1117175/CADENCE/assura_tech.lib" \
+	 -technology_name "c35b4c3"
+
+

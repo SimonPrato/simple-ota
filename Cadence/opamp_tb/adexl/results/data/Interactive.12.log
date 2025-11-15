@@ -1,0 +1,28 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Sun Oct 12 14:53:48 2025 
+Best design point: 1
+Design specs: 
+	p_ac_gain	corner	Nominal - 
+	np_ac_gain	corner	Nominal - 
+Design parameters: 
+	iac		0
+	vcm		1.6
+	VDD		3.2
+	VSS		0
+	Lout_p		350n
+	Wout_p		10u
+	Lout_n		2.76u
+	Wout_n		5.75u
+	Ldp_p		350n
+	Wdp_p		27.66u
+	Ldp_n		2.76u
+	Wdp_n		5.75u
+	Rbias		2K
+	VCM		1.6
+
+Interactive.12
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.12 completed. 
+Current time: Sun Oct 12 14:53:59 2025 
