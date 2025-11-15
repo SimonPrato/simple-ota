@@ -9,17 +9,17 @@ A PDF with detailed information, which has been submitted as a solution for an u
 ## Technology
 The MOSFET models used are nmos4 and pmos4 of the PRIMLIB library. From the same lib, poly resistances are used. Pad components are used from the IOLIB_ANA_4M library.
 
-![schematic_ideal_cm](Images/schematic_ideal_cm.png)
+![schematic_ideal_cm](Images/schematic_ideal_cm)
 
 First, the OTA has been simulated using an ideal current mirror for biasing
 
-![current_mirror](Images/real_current_mirror.png)
+![current_mirror](Images/real_current_mirror)
 
 After successful dimensioning of the OTA, the current mirror is replaced with the simple schematic above. 
 
 ![layout](Images/layout.png)
 
-![layout_closeup](Images/layout_closeup)
+![layout_closeup](Images/layout_closeup.png)
 
 Finally, the layout is created.
 
