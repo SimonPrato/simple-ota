@@ -17,9 +17,9 @@ First, the OTA has been simulated using an ideal current mirror for biasing
 
 After successful dimensioning of the OTA, the current mirror is replaced with the simple schematic above. 
 
-![layout](layout.png)
+![layout](Images/layout.png)
 
-![layout_closeup](layout_closeup.png)
+![layout_closeup](Images/layout_closeup)
 
 Finally, the layout is created.
 
