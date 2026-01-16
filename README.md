@@ -31,8 +31,8 @@ The OPAMP meets the following design specifications:
 | Parameter | Specification |
 |-----------|--------------|
 | Supply Voltage | 3.2V |
-| Differential Pair Bias Current | 0.7-0.9 mA (group-dependent) |
-| Minimum Low Frequency Gain | 36-38 dB (group-dependent) |
+| Differential Pair Bias Current | 0.8 mA |
+| Minimum Low Frequency Gain | 38 dB |
 | Maximum Supply Current | 5 mA |
 | Input Common Mode Voltage | 1.6V |
 | Output Common Mode Voltage | 1.6V |
@@ -142,5 +142,3 @@ The design achieves all specified requirements including:
 ---
 
 **Academic Context**: This project was completed as part of the coursework for Integrated Electronic Systems (Sistemas Eletrónicos Integrados) at Instituto Superior Técnico, 2025/2026.
-
-**Instructor**: João Caldinhas Vaz
