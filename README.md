@@ -133,7 +133,7 @@ The full report is available in the `Documentation` folder.
 ## Performance Highlights
 
 The design achieves all specified requirements including:
-- Target differential gain (36-38 dB minimum depending on group)
+- Target differential gain (38 dB minimum)
 - Maximized output voltage swing
 - Low input offset voltage
 - Stable operation across PVT corners
